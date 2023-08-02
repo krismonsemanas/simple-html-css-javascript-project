@@ -1,0 +1,65 @@
+/*
+ * File: style.css
+ * Project: netflix-logo
+ * File Created: Sunday, 30th July 2023 8:26:53 pm
+ * Author: Emon Krismon (emonkrismon98@gmail.com)
+ * Github: https://github.com/krismonsemanas
+ * -----
+ * Last Modified: Monday, 31st July 2023 11:41:12 am
+ * Modified By: Emon Krismon (emonkrismon98@gmail.com>)
+ * -----
+ * Copyright 2023, Kris Dev
+ */
+body {
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netflix {
+    width: 2em;
+    height: 10em;
+    position: relative;
+    background-color: #b20710;
+}
+
+.netflix::before {
+    content:  '';
+    width: 2em;
+    height: 10em;
+    position: absolute;
+    background-color: #b20710;
+    top: 0;
+    right: -3.75em
+}
+
+.netflix::after {
+    position: absolute;
+    background-color: white;
+    left: -1.5em;
+    bottom: -0.5em;
+    border-radius: 50%;
+    width: 8em;
+    height: 1.5em;
+    content: ''
+}
+
+.netflix span {
+    width:2em;
+    height: 10em;
+    background-color: #e50914;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    box-shadow: 0 0 10px -4px #222;
+    left:2em;
+    transform: skew(22deg);
+}

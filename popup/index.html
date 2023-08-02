@@ -1,0 +1,61 @@
+<!--
+File: index.html
+Project: popup
+File Created: Tuesday, 1st August 2023 8:27:55 am
+Author: Emon Krismon (emonkrismon98@gmail.com)
+Github: https://github.com/krismonsemanas
+-----
+Last Modified: Tuesday, 1st August 2023 8:28:01 am
+Modified By: Emon Krismon (emonkrismon98@gmail.com>)
+-----
+Copyright 2023, Kris Dev
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="openPopUp()">Open Pop Up</button>
+    </div>
+    <div id="popup" class="hidden">
+      <div class="popup_container">
+        <div class="popup_header">
+          <h1>Are you sure?</h1>
+          <button onclick="closePopUp()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="popup_body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, reprehenderit!
+          </p>
+        </div>
+        <div class="popup_footer">
+          <button class="confirm" onclick="onConfirm()">Confirm</button>
+          <button class="close" onclick="closePopUp()">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
