@@ -1,0 +1,82 @@
+/*
+ * File: style.css
+ * Project: show-password
+ * File Created: Saturday, 5th August 2023 2:11:23 pm
+ * Author: Emon Krismon (emonkrismon98@gmail.com)
+ * Github: https://github.com/krismonsemanas
+ * -----
+ * Last Modified: Saturday, 5th August 2023 2:11:47 pm
+ * Modified By: Emon Krismon (emonkrismon98@gmail.com>)
+ * -----
+ * Copyright 2023, Kris Dev
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  box-sizing: border-box;
+  --primary: #8b5cf6;
+  --bg-color: #f5f3ff;
+  --black: #030712;
+  --gray: #d1d5db;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.box {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 0.625em;
+  width: 50%;
+}
+
+.box label {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.box .input-group {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+}
+
+.box .input-group input {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--black);
+  width: 100%;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+}
+
+.box .input-group input:focus {
+  border: 1px solid var(--primary);
+  outline: 1px solid var(--primary);
+}
+
+.box .input-group i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.box .input-group i:hover {
+  color: var(--primary);
+}
