@@ -14,7 +14,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 |  2.  | Netflix Logo         | [View](https://youtu.be/iFO43pSbRFU) |
 |  3.  | Modal / Pop Up       | [View](https://youtu.be/cvGrl-jTloo) |
 |  4.  | Word Counter         | [View](https://youtu.be/av0eU0hudWY) |
-|  5.  | Show / Hide Password | [View](https://youtu.be/4WZhNpSVfZU) |
+|  5.  | Show / Hide Password | [View](https://youtu.be/tnE2TfEOyL4) |
 
 ## Useful Link
 
