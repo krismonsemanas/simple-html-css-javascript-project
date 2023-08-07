@@ -1,0 +1,75 @@
+/*
+ * File: style.css
+ * Project: color-generator
+ * File Created: Monday, 7th August 2023 6:17:06 pm
+ * Author: Emon Krismon (emonkrismon98@gmail.com)
+ * Github: https://github.com/krismonsemanas
+ * -----
+ * Last Modified: Monday, 7th August 2023 6:54:10 pm
+ * Modified By: Emon Krismon (emonkrismon98@gmail.com>)
+ * -----
+ * Copyright 2023, Kris Dev
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg: #f3f4f6;
+  --black: #030712;
+  --gray: #f3f4f6;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 0.5em;
+  gap: 0.5em;
+  width: 30em;
+}
+
+.box h1 {
+  font-size: 20px;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.box #result {
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: var(--black);
+  background-color: var(--gray);
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.25em;
+  text-transform: uppercase;
+}
+
+.box button {
+  border-radius: 0.25em;
+  outline: none;
+  border: none;
+  background-color: var(--black);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.5em 1em;
+}
