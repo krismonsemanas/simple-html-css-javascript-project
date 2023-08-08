@@ -16,6 +16,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 |  4.  | Word Counter         | [View](https://youtu.be/av0eU0hudWY) |
 |  5.  | Show / Hide Password | [View](https://youtu.be/tnE2TfEOyL4) |
 |  6.  | Color Generator      | [View](https://youtu.be/u7f2TvS0oxk) |
+|  7.  | Tooltip              | [View](https://youtu.be/StRu9VsGDIY) |
 
 ## Useful Link
 
