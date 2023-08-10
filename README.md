@@ -17,6 +17,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 |  5.  | Show / Hide Password | [View](https://youtu.be/tnE2TfEOyL4) |
 |  6.  | Color Generator      | [View](https://youtu.be/u7f2TvS0oxk) |
 |  7.  | Tooltip              | [View](https://youtu.be/StRu9VsGDIY) |
+|  8.  | Tab                  | [View](https://youtu.be/O6Kw5o0WPCE) |
 
 ## Useful Link
 
