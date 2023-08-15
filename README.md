@@ -21,6 +21,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 |  9.  | Draggable (Drag & Drop) | [View](https://youtu.be/aSbCan10IUo) |
 | 10.  | Dropdown Menu           | [View](https://youtu.be/kBC4SM62vEg) |
 | 11.  | Accordion               | [View](https://youtu.be/dWt-J8Qt160) |
+| 12.  | Captcha Generator       | [View](https://youtu.be/BPW83fGfXko) |
 
 ## Useful Link
 
