@@ -24,4 +24,4 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 
 ## Useful Link
 
-Follow me for update [Click Here](https://mylink-krisdev.vercel.app)
+Follow me for update [Click Here](https://mylink-krisdev.vercel.app), get Hosting & Domain [Here](https://www.host-tracking.id/SHLm)
