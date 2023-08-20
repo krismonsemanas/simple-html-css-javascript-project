@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+:root {
+  --bg: #eaf7fb;
+  --black: #001024;
+  --brand: #28b2d5;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-950: #030712;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg);
+  padding: 4em;
+}
+
+.card {
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 0.325em;
+}
+
+.card h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: var(--brand);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input-container {
+  margin-block: 0.635em;
+}
+
+.input-container .input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-block: 0.25em;
+}
+
+.input-container .input-group label {
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--gray-950);
+  margin-bottom: 0.25em;
+}
+
+.input-container .input-group input {
+  padding: 0.635em;
+  border: 1px solid var(--gray-300);
+  font-size: 1em;
+  font-weight: normal;
+  color: var(--gray-950);
+  border-radius: 0.325em;
+}
+
+.input-container .input-group input:focus {
+  outline: 1px solid var(--brand);
+}
+
+#calculate {
+  cursor: pointer;
+  padding: 0.635em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0.325em;
+  border: none;
+  background-color: var(--brand);
+  width: 100%;
+}
+
+#result {
+  margin-top: 0.632em;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#result span {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+#result span:nth-child(2) {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 30%;
+  }
+
+  .card h1 {
+    font-size: 2em;
+  }
+}
