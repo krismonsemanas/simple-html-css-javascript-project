@@ -23,6 +23,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 11.  | Accordion                        | [View](https://youtu.be/dWt-J8Qt160) |
 | 12.  | Captcha Generator                | [View](https://youtu.be/BPW83fGfXko) |
 | 13.  | BMI (Body Mass Index) Calculator | [View](https://youtu.be/K3Ze-gyiM7g) |
+| 14.  | Image Slider Filter Befor After  | [View](https://youtu.be/u8R_Vt5zd1E) |
 
 ## Useful Link
 
