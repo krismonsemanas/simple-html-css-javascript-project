@@ -24,6 +24,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 12.  | Captcha Generator                | [View](https://youtu.be/BPW83fGfXko) |
 | 13.  | BMI (Body Mass Index) Calculator | [View](https://youtu.be/K3Ze-gyiM7g) |
 | 14.  | Image Slider Filter Befor After  | [View](https://youtu.be/u8R_Vt5zd1E) |
+| 15.  | Qr Code Generator                | [View](https://youtu.be/n_e2jGkFhYA) |
 
 ## Useful Link
 
