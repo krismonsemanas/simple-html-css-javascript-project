@@ -27,6 +27,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 15.  | Qr Code Generator                | [View](https://youtu.be/n_e2jGkFhYA) |
 | 16.  | Countdown Timer                  | [View](https://youtu.be/BSophSks4MM) |
 | 17.  | To Do List                       | [View](https://youtu.be/q3r4oRfK2uc) |
+| 18.  | Password Generator               | [View](https://youtu.be/pj4Viy576VU) |
 
 ## Useful Link
 

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --gray-50: #f9fafb;
+  --gray-300: #d1d5db;
+  --gray-900: #111827;
+  --black: #030712;
+  --bg: #eaf7fb;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  padding: 4em;
+}
+
+.card {
+  background-color: var(--gray-50);
+  border-radius: 0.625em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  width: 22.5em;
+}
+
+.card h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card .result-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625em 1em;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.25em;
+}
+
+.card .result-container #result {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.result-container svg {
+  width: 1.25em;
+  height: 1.25em;
+  cursor: pointer;
+  color: var(--gray-900);
+}
+
+#generate {
+  padding: 0.625em 1em;
+  background-color: var(--gray-900);
+  color: var(--gray-50);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.25em;
+  font-weight: 500;
+}
+
+.setting {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-control {
+  display: flex;
+  gap: 0.5em;
+}
+
+.length {
+  flex-direction: column;
+  flex: 1;
+}
+
+.group {
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-control label {
+  font-weight: 400;
+}
+
+.form-control input[type="checkbox"] {
+  width: 1.25em;
+  height: 1.25em;
+}
