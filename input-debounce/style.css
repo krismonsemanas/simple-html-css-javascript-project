@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --gray-50: #f9fafb;
+  --gray-300: #d1d5db;
+  --gray-900: #111827;
+  --black: #030712;
+  --bg: #eaf7fb;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 4em;
+  background-color: var(--bg);
+}
+
+.card {
+  padding: 1em;
+  width: 22.5em;
+  background-color: var(--gray-50);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  border-radius: 0.625em;
+}
+
+.card h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  width: 100%;
+}
+
+.form-container .form-control {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25em;
+}
+
+.form-control label {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.form-control input {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: normal;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.25em;
+}
+
+.form-control input:focus {
+  outline: 1px solid var(--gray-900);
+}
+
+.form-control input::placeholder {
+  color: var(--gray-300);
+}
+
+.form-container p {
+  font-size: 1em;
+  font-weight: normal;
+}
