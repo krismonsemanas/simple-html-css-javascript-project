@@ -30,6 +30,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 18.  | Password Generator               | [View](https://youtu.be/pj4Viy576VU) |
 | 19.  | Input Debounce                   | [View](https://youtu.be/ewe9yimsnqg) |
 | 20.  | Character Counter                | [View](https://youtu.be/Q1BmkRMe5WE) |
+| 21.  | Toast Notification               | [View](https://youtu.be/IWy2RKJM6EE) |
 
 ## Useful Link
 

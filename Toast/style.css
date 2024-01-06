@@ -1,0 +1,140 @@
+/*
+ * File: style.css
+ * Project: Toast
+ * File Created: Saturday, 6th January 2024 12:43:05 pm
+ * Author: Emon Krismon (emonkrismon98@gmail.com)
+ * -----
+ * Last Modified: Saturday, 6th January 2024 1:05:39 pm
+ * Modified By: Emon Krismon (emonkrismon98@gmail.com>)
+ * -----
+ * Copyright 2024 Kris Dev
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary: #28b2d5;
+  --success: #10b981;
+  --white: #fff;
+  --bg: #eaf7fb;
+  --info: #6366f1;
+  --warning: #f59f0b;
+  --danger: #ef4444;
+  --black: #030712;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: var(--bg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+  border: none;
+  border-radius: 0.325rem;
+  padding-inline: 0.625rem;
+  padding-block: 0.75rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-info {
+  background-color: var(--info);
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-info {
+  color: var(--info);
+}
+
+.text-success {
+  color: var(--success);
+}
+
+.text-warning {
+  color: var(--warning);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+#toastContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.toast {
+  background-color: var(--white);
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 0.325rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.toast-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.325rem;
+  height: 100%;
+  border-top-left-radius: 0.325rem;
+  border-bottom-left-radius: 0.325rem;
+}
+
+.message {
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 400;
+}
+
+#heading {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+}
