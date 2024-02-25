@@ -33,6 +33,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 21.  | Toast Notification               | [View](https://youtu.be/IWy2RKJM6EE) |
 | 22.  | Expanding Card                   | [View](https://youtu.be/7zHvDPOIx_U) |
 | 23.  | Password Strength Validation     | [View](https://youtu.be/4l5jay-NdRk) |
+| 24.  | Sidebar                          | [View](https://youtu.be/4l5jay-NdRk) |
 
 ## Useful Link
 
