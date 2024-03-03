@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #030712;
+  --gray: #f3f4f6;
+  --primary: #25caac;
+  --gray-700: #374151;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--black);
+}
+
+header {
+  width: 100%;
+  background-color: var(--white);
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+}
+
+nav .logo svg {
+  width: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul > * {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.trigger,
+.sign-in {
+  display: inline-flex;
+  column-gap: 1rem;
+  font-weight: 500;
+  align-items: center;
+}
+
+.trigger svg,
+.sign-in svg {
+  width: 1.25rem;
+}
+
+.trigger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sign-in {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 0.1),
+    0px 4px 6px -4px rgb(0 0 0 / 0.1);
+  margin-top: 4rem;
+}
+
+.dropdown-item {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item .icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dropdown-item .icon svg {
+  width: 2rem;
+}
+
+.dropdown-item:hover {
+  background-color: var(--gray);
+}
+
+.dropdown-item:hover .icon {
+  background-color: var(--white);
+}
+
+.dropdown-item:hover .icon svg {
+  color: var(--primary);
+}
+
+:is(nav ul li a, .trigger, .sign-in):hover {
+  color: var(--primary);
+}
+
+.dropdown-item h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.dropdown-item p {
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.hidden {
+  display: none !important;
+}
