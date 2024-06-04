@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --white: #fff;
+  --primary: #186c81;
+  --black: #030712;
+  --primary-600: #2090ac;
+  --primary-300: #7ed2e7;
+  --primary-100: #d4f0f7;
+  --primary-50: #eaf7fb;
+  --gray-700: #374151;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --red: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  padding: 1.5rem;
+  color: var(--black);
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: start;
+}
+
+.left {
+  width: 100%;
+  height: 100%;
+  row-gap: 1.5rem;
+}
+
+.right {
+  display: none; /* hide for small device */
+}
+
+.left a svg {
+  width: 2.5rem;
+  height: fit-content;
+  color: var(--primary);
+}
+
+.title h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.title p {
+  color: var(--gray-700);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.text-red {
+  color: var(--red);
+}
+
+label {
+  font-weight: 500;
+}
+
+.label-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-password a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.label-password a:hover {
+  color: var(--primary);
+}
+
+.form-group input {
+  padding-inline: 0.625rem;
+  padding-block: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--gray-300);
+}
+
+.form-group input:focus {
+  outline: 1px solid var(--primary);
+}
+
+.form-group input::placeholder {
+  color: var(--gray-400);
+}
+
+.btn {
+  padding-inline: 0.625rem;
+  padding-block: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.btn svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line span:nth-child(odd) {
+  width: 100%;
+  height: 1px;
+  background-color: var(--gray-300);
+}
+
+.line span:nth-child(2) {
+  background-color: var(--white) !important;
+  width: 100%;
+  flex: 1;
+  margin-inline: 2rem;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--gray-300);
+  display: flex;
+  justify-content: center;
+  column-gap: 0.625rem;
+  align-items: center;
+}
+
+.left a {
+  color: var(--gray-700);
+  text-decoration: none;
+}
+
+.register {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+/* only for desktop */
+@media screen and (min-width: 765px) {
+  body {
+    padding: 2rem;
+  }
+
+  .left {
+    width: 50%;
+  }
+
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    row-gap: 1.5rem;
+  }
+
+  .right::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    z-index: -2;
+  }
+
+  .right::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("/assets/images/pattern.png") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.06;
+  }
+
+  .right img {
+    width: 50%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description h1 {
+    font-size: 1.5rem;
+    color: var(--primary-50);
+    font-weight: 800;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+  .description p {
+    color: var(--primary-300);
+    text-align: center;
+  }
+}
+
+@media screen and(min-width: 1024px) {
+  .description h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

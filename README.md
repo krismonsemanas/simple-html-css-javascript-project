@@ -35,6 +35,7 @@ With this repository, it is hoped that beginners can learn it and follow it as a
 | 23.  | Password Strength Validation     | [View](https://youtu.be/4l5jay-NdRk) |
 | 24.  | Sidebar                          | [View](https://youtu.be/e4YbfukXGzg) |
 | 25.  | Header                           | [View](https://youtu.be/Qz_8AINOULw) |
+| 26.  | Responseive Login Page           | [View](https://youtu.be/UClOWyMc6ZY) |
 
 ## Useful Link
 
